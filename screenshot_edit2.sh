@@ -1,0 +1,1 @@
+flameshot-wayland.sh

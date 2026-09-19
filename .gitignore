@@ -1,0 +1,10 @@
+# Temporary files
+*.png
+*.jpg
+*.jpeg
+*.log
+
+# Editor / OS files
+.DS_Store
+.idea/
+.vscode/
