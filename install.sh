@@ -14,15 +14,9 @@ chmod +x "$SCRIPT_DIR/flameshot-wayland.sh"
 # Cria symlink principal
 ln -sf "$SCRIPT_DIR/flameshot-wayland.sh" "$TARGET_DIR/$BIN_NAME"
 
-# Cria symlink adicional para atalho alternativo
-ln -sf "$SCRIPT_DIR/flameshot-wayland.sh" "$TARGET_DIR/flameshot-sway"
-ln -sf "$SCRIPT_DIR/flameshot-wayland.sh" "$TARGET_DIR/screenshot_edit"
-
 echo "✅ Instalado com sucesso!"
-echo "Comandos disponíveis em $TARGET_DIR:"
+echo "Comando disponível em $TARGET_DIR:"
 echo "  • $BIN_NAME"
-echo "  • flameshot-sway"
-echo "  • screenshot_edit"
 echo ""
 echo "Certifique-se de que '$TARGET_DIR' esteja no seu PATH:"
 echo "  export PATH=\"\$HOME/.local/bin:\$PATH\""

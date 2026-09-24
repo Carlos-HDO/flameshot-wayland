@@ -68,9 +68,8 @@ Run the bundled installer to symlink the script directly to your `~/.local/bin`:
 ./install.sh
 ```
 
-This creates the following global commands:
+This creates the following global command:
 * `flameshot-wayland`
-* `flameshot-sway`
 
 > [!TIP]
 > Ensure that `~/.local/bin` is in your `PATH`. If it is not, add this line to your `~/.bashrc` or `~/.zshrc`:
